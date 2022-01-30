@@ -1,0 +1,36 @@
+{% extends 'base.html' %}{% block title %}Api Doc{% endblock %}{% block content %}
+<style>
+    .pt-\[17\%\] {
+        padding-top: 17%;
+    }
+    
+    .mt-\[-10\%\] {
+        margin-top: -10%;
+    }
+    
+    .pt-\[56\.25\%\] {
+        padding-top: 56.25%;
+    }
+</style>
+
+<main class="relative container mx-auto bg-white px-4">
+    <div class="relative -mx-4 top-0 pt-[17%] overflow-hidden">
+        <img class="absolute inset-0 object-cover object-top w-full h-full filter blur" src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29uY2VydCUyMHBvc3RlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+            alt="" />
+    </div>
+
+    <div class="mt-[-10%] w-1/2 mx-auto">
+        <div class="relative pt-[56.25%] overflow-hidden rounded-2xl">
+            <img class="w-full h-full absolute inset-0 object-cover" src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y29uY2VydCUyMHBvc3RlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80" alt=""
+            />
+        </div>
+    </div>
+
+    <article class="max-w-prose mx-auto py-8">
+        <h1 class="text-2xl font-bold">How we can work with the api.</h1>
+
+        <p class="mt-6">To use the api we need to login if you have any account after that you can triger the api .The api bassically look like this http://127.0.0.1:5000/tasks/user_id/task_id where user_id is your id and task_id is the task position .</p>
+
+    </article>
+</main>
+{% endblock %}
